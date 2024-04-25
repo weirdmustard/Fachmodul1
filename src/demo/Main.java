@@ -19,11 +19,15 @@ public class Main {
 		// non primitive data types
 		String thisIsAText;
 		Integer number;
-		Scanner scanner; 
-		String[] words = {"cave", "torch","scary shadow"};
-		System.out.println(words.length);
-		
-		
+		Scanner scanner;
+		String[] wordsArray = { "cave", "torch", "scary shadow" };
+		System.out.println(wordsArray.length);
+
+		String textObject = new String("Ich bin ein Stringobjekt");
+		// create objects with "new"
+
+		System.out.println("String Buchstabe aus Objekt:");
+		System.out.println(textObject.charAt(5));
 
 		// camel case
 
