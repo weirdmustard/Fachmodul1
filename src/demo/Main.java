@@ -56,6 +56,29 @@ public class Main {
 		boolean isThisTrue = true;
 		if (isThisTrue)
 			;
+		
+//26042024
+		
+// Instances of other Classes
+
+// package2.CharacterClass -> liegt in anderem Package
+// CharacterClass characterClass = new CharacterClass();
+// player.baseDmg = 10;
+
+// Rechtsklick, Source, generate getter/setter
+		
+// characterClass als Mutterklasse aller Klassen, die Eigenschaften erben
+// Hunter extends characterClass -> Hunter erbt alle Eigenschaften der characterClass
+// implements -> Schnittstellen implementieren
+		
+// Eine Spielklasse ist 1 Java-Klasse, nur 1 Class pro Class einrichten für Übersichtlichkeit
+		
+// Bsp: Hunter bezieht sich auf CharacterClass, bezieht sich auf PlayerClass
+		
+// Java Spring oder Hibernate sind am gängigsten
+		
+
+		
 
 	}
 
